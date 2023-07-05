@@ -8,6 +8,6 @@ import lombok.Setter;
 @Getter
 @Setter
 public class ModelerMenuDto {
-    private List<String> menuControl;
-    private List<String> other;
+    private List<CategoryItemDto> menuControl;
+    private List<CategoryItemDto> other;
 }

@@ -8,6 +8,6 @@ import lombok.Setter;
 @Getter
 @Setter
 public class AdministratorMenuDto {
-    private List<String> systemModelEdit;
-    private List<String> other;
+    private List<CategoryItemDto> systemModelEdit;
+    private List<CategoryItemDto> other;
 }
